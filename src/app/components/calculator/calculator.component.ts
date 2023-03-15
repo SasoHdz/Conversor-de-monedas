@@ -23,6 +23,19 @@ export class CalculatorComponent {
     'RUBLO RUSIA',
   ];
 
+  svgs: any = {
+    'USD':'../../../assets/image/usd.svg',
+    'EUR':'../../../assets/image/eur.svg',
+    'LIBRA ESTERLINA':'../../../assets/image/libra.svg',
+    'PESO ARG':'../../../assets/image/arg.svg',
+    'PESO CHILENO':'../../../assets/image/chile.svg',
+    'PESO COLOMBIANO':'../../../assets/image/col.svg',
+    'PESO MEXICANO':'../../../assets/image/mex.svg',
+    'DOLAR AUSTRALIANO':'../../../assets/image/aus.svg',
+    'DOLAR BELICE':'../../../assets/image/be.svg',
+    'RUBLO RUSIA':'../../../assets/image/rus.svg',
+};
+
   converUSD: any = {
     'USD': 1,
     'EUR': 0.94,

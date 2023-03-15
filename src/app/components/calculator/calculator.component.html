@@ -25,9 +25,13 @@
       </div>
     </div>
   </div>
-  <h3 *ngIf="cantidad>0" class="text-center mt-5">
+  <h3 *ngIf="cantidad>0" class="text-center mt-1">
     <span class="badge badge-success">{{ cantidad }} {{ tengo }}</span>
     <span class="badge badge-secondary">SON</span>
     <span class="badge badge-success">{{total | number: '0.0-2'}} {{ quiero }}</span>
   </h3>
+  <div *ngIf="cantidad>0" class="flags">
+    <img [src]="svgs[tengo]" alt="">
+    <img [src]="svgs[quiero]" alt="">
+  </div>
 </div>
